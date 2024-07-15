@@ -1,5 +1,5 @@
 import "./Sidebar.scss";
-import amazonLogo from "../../assets/amazon.svg";
+import discordIcon from "../../assets/discordIcon.png";
 import androidLogo from "../../assets/android.svg";
 import appleLogo from "../../assets/apple.svg";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -15,7 +15,7 @@ const Sidebar = () => {
       {/* sidebarLeft */}
       <div className="sidebarLeft">
         <div className="serverIcon">
-          <img src={amazonLogo} alt="Amazon logo" />
+          <img src={discordIcon} alt="Discord logo" />
         </div>
         <div className="serverIcon">
           <img src={androidLogo} alt="Android logo" />
