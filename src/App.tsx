@@ -23,8 +23,7 @@ function App() {
         <Sidebar />
         <Chat />
       </>
-      // ) : (
-      <Login />)
+      // ) : ({/* <Login />) */}
     </div>
   );
 }

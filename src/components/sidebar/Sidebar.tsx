@@ -1,6 +1,9 @@
 import "./Sidebar.scss";
-import discordIcon from "../../assets/discordIcon.png";
-import androidLogo from "../../assets/android.svg";
+import youtubeLogo from "../../assets/youtube.png";
+import instagramLogo from "../../assets/instagram.png";
+import tiktokLogo from "../../assets/tiktok.png";
+import twitterLogo from "../../assets/twitter.png";
+import googleLogo from "../../assets/google.png";
 import appleLogo from "../../assets/apple.svg";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import AddIcon from "@mui/icons-material/Add";
@@ -15,10 +18,19 @@ const Sidebar = () => {
       {/* sidebarLeft */}
       <div className="sidebarLeft">
         <div className="serverIcon">
-          <img src={discordIcon} alt="Discord logo" />
+          <img src={youtubeLogo} alt="YouTube Logo" />
         </div>
         <div className="serverIcon">
-          <img src={androidLogo} alt="Android logo" />
+          <img src={instagramLogo} alt="Instagram Logo" />
+        </div>
+        <div className="serverIcon">
+          <img src={googleLogo} alt="Instagram Logo" />
+        </div>
+        <div className="serverIcon">
+          <img src={tiktokLogo} alt="TikTok Logo" />
+        </div>
+        <div className="serverIcon">
+          <img src={twitterLogo} alt="Twitter Logo" />
         </div>
       </div>
 
